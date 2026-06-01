@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a new capability or improvement for Recruitment Room.
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to describe a feature idea clearly and keep the request small enough for contributors to understand quickly.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the problem or need this feature should solve.
+      placeholder: What is missing or difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: expected_outcome
+    attributes:
+      label: Expected outcome
+      description: Describe what success should look like.
+      placeholder: What should users be able to do after this change?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: List the conditions that should be true when this issue is complete.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: interest
+    attributes:
+      label: Contributor interest
+      description: Let maintainers know whether you would like to work on this issue.
+      options:
+        - label: I am interested in working on this issue.
+        - label: I am available to help review or clarify details.
